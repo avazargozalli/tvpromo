@@ -1,0 +1,22 @@
+button {
+  display: flex;
+  background-color: #e50914;
+  color: white;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 7px 15px;
+  margin-top: 20px;
+  font-size: 14px;
+  transition-duration: 0.6s;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.268);
+  padding: 7px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
