@@ -17,6 +17,7 @@ html {
   height: 60px;
   align-items: center;
   background-color: #221f1f;
+  border-bottom: 2px solid #E50914;
 }
 
 .container {
@@ -564,6 +565,7 @@ footer {
   align-items: center;
   background-color: #221f1f;
   padding: 0px 30px;
+  border-top: 2px solid #E50914;
 }
 
 footer .footer-menu ul {
