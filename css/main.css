@@ -98,7 +98,7 @@ main .hero {
       rgba(0, 0, 0, 0.5228685224089635) 59%,
       rgba(255, 255, 255, 0) 100%
     ),
-    url(./hero-tv.jpeg);
+    url(/img/hero-tv.jpeg);
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
