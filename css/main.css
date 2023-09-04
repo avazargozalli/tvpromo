@@ -17,7 +17,7 @@ html {
   height: 60px;
   align-items: center;
   background-color: #221f1f;
-  border-bottom: 2px solid #E50914;
+  border-bottom: 2px solid #e50914;
 }
 
 .container {
@@ -237,7 +237,7 @@ section div i {
 
 .plan-1 {
   text-align: center;
-  background-color: #F5F5F1;
+  background-color: #f5f5f1;
   padding: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.298);
   border-left: 1px solid rgba(0, 0, 0, 0.298);
@@ -256,7 +256,7 @@ section div i {
 
 .plan-2 {
   text-align: center;
-  background-color: #F5F5F1;
+  background-color: #f5f5f1;
   padding: 50px;
   border: 1px solid rgba(0, 0, 0, 0.298);
   border-radius: 30px 30px 30px 30px;
@@ -271,7 +271,7 @@ section div i {
 
 .plan-3 {
   text-align: center;
-  background-color: #F5F5F1;
+  background-color: #f5f5f1;
   padding: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.298);
   border-right: 1px solid rgba(0, 0, 0, 0.298);
@@ -565,7 +565,7 @@ footer {
   align-items: center;
   background-color: #221f1f;
   padding: 0px 30px;
-  border-top: 2px solid #E50914;
+  border-top: 2px solid #e50914;
 }
 
 footer .footer-menu ul {
@@ -669,7 +669,7 @@ footer .footer-icons i {
   display: inline-flex !important ;
 }
 
-#pagination{
+#pagination {
   margin-bottom: 30px;
 }
 
@@ -681,18 +681,20 @@ footer .footer-icons i {
 }
 
 .pagination a {
-  color: #E50914;
+  color: #e50914;
   display: flex;
   padding: 8px 16px;
   text-decoration: none;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
   border: 1px solid #ddd;
 }
 
 .pagination a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
-  border: 1px solid #4CAF50;
+  border: 1px solid #4caf50;
 }
 
-.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
