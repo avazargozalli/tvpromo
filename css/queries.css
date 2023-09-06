@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     margin: auto;
-    justify-content:space-between;
+    justify-content: space-between;
     height: 50px;
     align-items: center;
     background-color: #221f1f;
@@ -18,11 +18,11 @@
 
   header div .logo {
     width: 10rem;
-    padding-left: 1rem;
-    padding-top: .5rem;
+    padding-left: 0rem;
+    padding-top: 0.5rem;
   }
 
-  header div .menu{
+  header div .menu {
     display: flex;
     justify-content: end;
   }
@@ -31,7 +31,7 @@
     display: none;
   }
 
-  header div .fa-gear{
+  header div .fa-user-gear {
     padding-right: 1rem;
     font-size: 2.2rem;
     color: #fff;
@@ -40,10 +40,10 @@
     cursor: pointer;
   }
 
-  header div .fa-bars{
+  header div .fa-bars {
     padding-right: 2rem;
     padding-left: 1rem;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     color: #fff;
     display: flex;
     justify-self: end;
@@ -56,7 +56,7 @@
   }
 
   main .hero {
-    height: 280px;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,10 +298,10 @@
     margin-top: 40px;
     margin-bottom: 40px;
     position: relative;
-    height:fit-content;
+    height: fit-content;
   }
 
-  #cards h2{
+  #cards h2 {
     font-size: 2.5rem;
   }
 
@@ -345,24 +345,23 @@
     top: 0;
     transition: all 0.6s;
   }
-footer{
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-  .footer-menu{
+  footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-menu {
     margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
+    display: flex;
+    justify-content: center;
+  }
 
-.footer-icons{
-  margin-top: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+  .footer-icons {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
