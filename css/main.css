@@ -95,6 +95,10 @@ header div .fa-bars{
   display: none;
 }
 
+header div .fa-gear{
+  display: none;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -475,7 +479,7 @@ section div i {
 }
 
 #cards .card-1 p {
-  font-size: 1.5rem 2rem;
+  font-size: 1.5rem;
 }
 
 #cards .card-1 a {
@@ -519,7 +523,7 @@ section div i {
 }
 
 #cards .card-2 p {
-  font-size: 1.5rem 2rem;
+  font-size: 1.5rem;
 }
 
 #cards .card-2 a {
@@ -563,7 +567,7 @@ section div i {
 }
 
 #cards .card-3 p {
-  font-size: 1.5rem 2rem;
+  font-size: 1.5rem;
 }
 
 #cards .card-3 a {

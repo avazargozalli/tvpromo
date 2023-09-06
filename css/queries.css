@@ -9,29 +9,44 @@
     width: 100%;
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content:space-between;
     height: 50px;
     align-items: center;
     background-color: #221f1f;
     border-bottom: 2px solid #e50914;
   }
 
-  header div > a img {
-    width: 120px;
-    align-items: center;
+  header div .logo {
+    width: 10rem;
     padding-left: 1rem;
-    padding-top: 5px;
+    padding-top: .5rem;
+  }
+
+  header div .menu{
+    display: flex;
+    justify-content: end;
   }
 
   header div ul {
     display: none;
   }
 
-  header div .fa-bars{
+  header div .fa-gear{
     padding-right: 1rem;
     font-size: 2.2rem;
     color: #fff;
     display: flex;
+    justify-self: end;
+    cursor: pointer;
+  }
+
+  header div .fa-bars{
+    padding-right: 2rem;
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    color: #fff;
+    display: flex;
+    justify-self: end;
     cursor: pointer;
   }
 
