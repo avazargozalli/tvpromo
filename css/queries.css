@@ -1,6 +1,10 @@
 /*! Responsive */
 
 @media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+
   #container {
     width: 100%;
     display: flex;
@@ -61,7 +65,7 @@
     text-align: center;
     align-items: center;
     color: rgb(240, 248, 255);
-    padding-top: 10px;
+    padding-top: 1rem;
   }
 
   .hero div h3 {
@@ -73,9 +77,116 @@
     padding-top: 10px;
   }
 
-  section div i {
-    font-size: 25px;
-    padding-bottom: 10px;
+  .features {
+    display: block;
+    align-items: center;
+    text-align: center;
+    height: 40rem;
+    margin-top: 3rem;
+  }
+
+  .features div {
+    align-items: center;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .features div h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .features div span {
+    font-size: 1.5rem;
+    padding: 0px 20px;
+  }
+
+  .features div:nth-child(n + 2) {
+    border-left: 1px;
+  }
+
+  #plans {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .plan h3 {
+    font-size: 3rem;
+  }
+
+  .plan h4 {
+    font-size: 2rem;
+  }
+
+  .plan ul {
+    font-size: 1.6rem;
+  }
+
+  .plan-1 {
+    text-align: center;
+    background-color: #f5f5f1;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    border-radius: 30px;
+    z-index: 1;
+    transition: box-shadow 0.6s;
+    width: 80%;
+    margin: auto;
+  }
+
+  .plan-1:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 30px 30px 30px 30px;
+    z-index: 3;
+  }
+
+  .plan-2 {
+    text-align: center;
+    background-color: #f5f5f1;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    border-radius: 30px;
+    z-index: 1;
+    transition: box-shadow 0.6s;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .plan-2:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 30px 30px 30px 30px;
+    z-index: 3;
+  }
+
+  .plan-3 {
+    text-align: center;
+    background-color: #f5f5f1;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    border-radius: 30px;
+    z-index: 1;
+    transition: box-shadow 0.6s;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .plan-3:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 30px 30px 30px 30px;
+    z-index: 3;
+  }
+
+  section div .fa-solid {
+    font-size: 3rem;
+    padding-bottom: 1rem;
     color: #e50914;
   }
 
@@ -90,22 +201,22 @@
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.282);
   }
-  
+
   .release > div {
     display: block;
     align-items: center;
   }
-  
+
   .release-text {
     width: 100%;
   }
-  
+
   .release-text h2 {
     font-size: 25px;
     display: block;
     padding: 20px 20px;
   }
-  
+
   .release-text p {
     font-size: 14px;
     display: block;
@@ -117,7 +228,7 @@
     display: block;
     padding: 20px 20px;
   }
-  
+
   .btn {
     font-size: 13px;
     background-color: #e50914;
@@ -130,12 +241,12 @@
     margin-bottom: 20px;
     transition-duration: 0.6s;
     display: block;
-    position:unset;
+    position: unset;
     bottom: 0;
     right: 0;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   }
-  
+
   .btn:hover {
     color: aliceblue;
     padding: 7px 15px;
@@ -144,13 +255,13 @@
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   }
-  
+
   .release img {
     display: block;
     width: 100%;
     height: 100%;
   }
-  
+
   .release-img {
     width: 100%;
     height: auto;
